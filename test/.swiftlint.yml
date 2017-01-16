@@ -5,7 +5,7 @@ disabled_rules: # rule identifiers to exclude from running
   # - force_cast
   # - function_body_length
   # - leading_whitespace
-  - line_length
+  # - line_length
   # - nesting
   # - operator_whitespace
   # - return_arrow_whitespace
@@ -15,8 +15,8 @@ disabled_rules: # rule identifiers to exclude from running
   # - type_body_length
   # - type_name
   # - variable_name
-# included: # paths to include during linting. `--path` is ignored if present. takes precendence over `excluded`.
-#   - Source
+ included: # paths to include during linting. `--path` is ignored if present. takes precendence over `excluded`.
+   - ./
 excluded: # paths to ignore during linting. overridden by `included`.
   - Carthage
 variable_name:
